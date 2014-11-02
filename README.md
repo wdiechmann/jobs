@@ -11,7 +11,7 @@ the jobber(s) assigned to the job.
 
 [![Build Status](https://travis-ci.org/wdiechmann/jobs.svg?branch=master)](https://travis-ci.org/wdiechmann/jobs)
 
-[![Gem Version](https://badge.fury.io/rb/jobs.png)](http://badge.fury.io/rb/sinderella)
+[![Gem Version](https://badge.fury.io/rb/jobs.png)](http://badge.fury.io/rb/jobs)
 
 [![Coverage Status](https://coveralls.io/repos/wdiechmann/jobs/badge.png)](https://coveralls.io/r/wdiechmann/jobs)
 
@@ -68,3 +68,5 @@ complete any of these tasks to use the gem!
 	- rake install
 	- rake release
 17.		make the gem a mountable Rails Engine - following the [Rails Engine Guide](http://edgeguides.rubyonrails.org/engines.html) transposing the blorgh to jobs
+	- watch out for engine test\_helper.rb not set up correct - see https://github.com/rails/rails/issues/4971 and the b72ecc0 and 2317655 commits
+	
