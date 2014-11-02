@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Where to:</strong>
+  <%= @job.where_to %>
+</p>
+
+<p>
+  <strong>When to:</strong>
+  <%= @job.when_to %>
+</p>
+
+<p>
+  <strong>How to:</strong>
+  <%= @job.how_to %>
+</p>
+
+<p>
+  <strong>Who to:</strong>
+  <%= @job.who_to %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @job.description %>
+</p>
+
+<%= link_to 'Edit', edit_job_path(@job) %> |
+<%= link_to 'Back', jobs_path %>

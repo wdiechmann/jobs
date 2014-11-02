@@ -1,6 +1,11 @@
 # Jobs
 
-TODO: Write a gem description
+The jobs gem is focused with managing jobs in a Rails 4.x application and adds a persisted jobs table to your store.
+It offers a 'public' searchable index of vacancies - and an admin interface to signed in users for adding, editing and deleting jobs.
+
+The jobs gem does not require you to install other gems - but if you do install the 'jobber' gem, it will show a sidebar on the public
+index if the jobber is signed in, with jobs currently assigned to the jobber. And likewise on the admin index; any selected job will show
+the jobber(s) assigned to the job.
 
 ## Current state
 
@@ -15,7 +20,7 @@ TODO: Write a gem description
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jobs'
+gem 'jobs', path: "vendor/engines/jobs"
 ```
 
 And then execute:
@@ -32,7 +37,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/jobs/fork )
+1. Fork it ( https://github.com/wdiechmann/jobs/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -40,7 +45,10 @@ TODO: Write usage instructions here
 
 ## Building the gem
 
-1. 		install or update bundler
+Documenting the build process is instructional only - it has no influence on how the gem works and you do not have to 
+complete any of these tasks to use the gem!
+
+1. 		install or update bundler, ruby and rubygems respectively
 2. 		run `bundle gem jobs`
 3. 		add dependencies to jobs/jobs.gemspec
 4. 		add task to Rakefile
@@ -59,3 +67,4 @@ TODO: Write usage instructions here
 	- rake build
 	- rake install
 	- rake release
+17.		make the gem a mountable Rails Engine - following the [Rails Engine Guide](http://edgeguides.rubyonrails.org/engines.html) transposing the blorgh to jobs

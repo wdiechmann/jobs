@@ -1,4 +1,4 @@
-require "jobs/version"
+require "jobs/engine"
 
 module Jobs
   # Your code goes here...
