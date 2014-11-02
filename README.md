@@ -4,7 +4,7 @@ TODO: Write a gem description
 
 ## Current state
 
-[![Build Status](https://travis-ci.org/wdiechmann/jobs.png?branch=master)](https://travis-ci.org/wdiechmann/jobs) 
+[![Build Status](https://travis-ci.org/wdiechmann/jobs.svg?branch=master)](https://travis-ci.org/wdiechmann/jobs)
 
 [![Gem Version](https://badge.fury.io/rb/jobs.png)](http://badge.fury.io/rb/sinderella)
 
@@ -51,3 +51,11 @@ TODO: Write usage instructions here
 9. 		add coveralls.io code coverage integration
 10. 	add coveralls gem to jobs.gemspec
 11.		add coveralls helper to our spec_helper
+12.		add badges to the README for CI, RubyGem, and Coveralls 
+13.		finish the job.gemspec
+14.		do a first build of the gem with `gem build jobs.gemspec`
+15.		do a first install of the gem with `gem install ./jobs-0.0.2.gem`
+16.		do a first release with 
+	- rake build
+	- rake install
+	- rake release

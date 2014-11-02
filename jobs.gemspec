@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Jobs::VERSION
   spec.authors       = ["Walther H Diechmann"]
   spec.email         = ["walther@diechmann.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{ Keep a tab on vacant and assigned jobs on SL2017}
+  spec.description   = %q{ Jobs is one of the modules available to the project organization concerned with building the SL2017 Camp.}
+  spec.homepage      = "http://jobs.sl2017.dk"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
