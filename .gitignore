@@ -15,3 +15,4 @@ mkmf.log
 .DS_Store
 *.log
 *.sqlite3
+schema.rb
