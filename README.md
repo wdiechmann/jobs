@@ -33,7 +33,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: Write usage instructions here - include screenshots and a short video to demonstrate features
 
 ## Contributing
 
@@ -70,3 +70,4 @@ complete any of these tasks to use the gem!
 17.		make the gem a mountable Rails Engine - following the [Rails Engine Guide](http://edgeguides.rubyonrails.org/engines.html) transposing the blorgh to jobs
 	- watch out for engine test\_helper.rb not set up correct - see https://github.com/rails/rails/issues/4971 and the b72ecc0 and 2317655 commits
 18.		cleaning up test/dummy/db and .gitignore and bump version to .5
+19.		made TravisCI build - and Coveralls show test coverage - on JRuby and MRI
