@@ -29,9 +29,13 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "mysql2"
-  # spec.add_development_dependency "activerecord-jdbcsqlite3-adapter", platform: :jruby
-  # spec.add_development_dependency @gemspec.extensions = 'ext/mkrf_conf.rb'@
+  case Gem::Platform.local.os
+  when "java"
+    spec.add_development_dependency "activerecord-jdbcsqlite3-adapter"
+  else
+    # spec.add_development_dependency "mysql2"
+    spec.add_development_dependency "sqlite3"
+  end
   
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-nc"
